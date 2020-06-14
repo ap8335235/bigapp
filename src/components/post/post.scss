@@ -1,0 +1,31 @@
+.PostPage {
+ display: flex;
+ flex-direction: column;
+
+   &__prefix{
+      
+       
+       color: #143b64 ;
+       text-transform: uppercase;
+       font-weight: 700;
+   }
+
+    &__post{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: 1px solid skyblue;
+
+        &__mail{
+            display: flex;
+            flex-direction: column;
+            
+
+            &--name{
+                color: #0275d8;
+                font-weight: 600;
+                
+            }
+        }
+    }
+}

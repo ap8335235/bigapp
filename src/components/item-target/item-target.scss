@@ -1,0 +1,12 @@
+.itemComponent{
+    display: flex;
+    flex-direction: column;
+
+
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: 1px solid skyblue;
+    }
+}

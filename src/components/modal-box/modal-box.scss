@@ -1,0 +1,36 @@
+.modalBox{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0275d8;
+
+
+    &__header{
+        display: flex;
+        width: 100%;
+        background-color: #0275d8;
+        padding: 15px;
+        color: white;
+
+        &__cross{
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    }
+
+   &__container{
+       display: flex;
+       justify-content: space-between;
+
+
+       &__section{
+           width: 43vw;
+           height: 78vh;
+           background-color:#F8F8FF;
+           border: 1px solid #0275d8;
+       }
+  }
+}
